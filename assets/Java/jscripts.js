@@ -27,9 +27,15 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css
         //get current number of hours.
         var currentHour = moment().hour();
 
-        $(".time-block");.each(function () {
+        $(".time-block").each(function () {
             var blockHour = parseInt($(this).attr("id").split("h")[1]);
             console.log( blockHour, currentHour)
+
+            if (blockHour < currentHour) {
+                $(this).addClass("past");
+                $(this).removeClass("future");
+                $(this).removeClass("present");
+            };
 
 
     }
