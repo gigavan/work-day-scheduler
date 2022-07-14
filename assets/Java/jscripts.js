@@ -23,4 +23,15 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css
     $("#h16 .description").val(localStorage.getItem("h16"));
     $("#h17 .description").val(localStorage.getItem("h17"));
 
-});
+    function hourTracker() {
+        //get current number of hours.
+        var currentHour = moment().hour();
+
+        $(".time-block");.each(function () {
+            var blockHour = parseInt($(this).attr("id").split("h")[1]);
+            console.log( blockHour, currentHour)
+
+
+    }
+    hourTracker(); //re-run function
+})
