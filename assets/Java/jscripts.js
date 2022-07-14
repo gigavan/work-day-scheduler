@@ -35,7 +35,11 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css
                 $(this).addClass("past");
                 $(this).removeClass("future");
                 $(this).removeClass("present");
-            };
+            }
+            else if (blockHour === currentHour) {
+                $(this).removeClass("past");
+                $(this).addClass("present");
+                $(this).removeClass("future");
 
 
     }
