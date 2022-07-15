@@ -1,5 +1,9 @@
-# Work Day Scheduler Starter Code
-# work-day-scheduler
+# Work Day Scheduler
+
+
+<img src="https://user-images.githubusercontent.com/70541230/179121862-b6689cb2-2672-4e33-9067-b05dac6305fa.png" width="90%"></img>
+
+
 
 Scheduler for your day to day work, to keep you on track.
 worked with moment.js, jquery and bootstrap to dynamically edit and customize html and behavior.
@@ -23,3 +27,5 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+https://github.com/gigavan/work-day-scheduler
