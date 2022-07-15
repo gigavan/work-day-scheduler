@@ -41,7 +41,17 @@ $(document).ready(function () {// tells engine to load 1)html & 2)css
                 $(this).addClass("present");
                 $(this).removeClass("future");
 
+            }
+            else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
 
-    }
+            }
+
+
+    })
+
+}
     hourTracker(); //re-run function
 })
